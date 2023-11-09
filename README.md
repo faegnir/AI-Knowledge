@@ -24,9 +24,6 @@ More complex puzzles involve multiple characters and statements, making them cha
 ## Solving with Propositional Logic
 
 To automate the solution to Knights and Knaves puzzles, we can represent the problem using propositional logic. Each character's identity (knight or knave) and their statements can be translated into logical expressions. An AI running a model-checking algorithm can then deduce the correct identities of the characters based on the logic and constraints provided.
-### Using Propositional Logic to Solve Knights and Knaves Puzzles
-
-To automate the solution to Knights and Knaves puzzles, we can represent the problem using propositional logic. Each character's identity (knight or knave) and their statements can be translated into logical expressions. An AI running a model-checking algorithm can then deduce the correct identities of the characters based on the logic and constraints provided.
 
 In the context of this project, there is a Python script (`logic.py`) that defines various classes for different types of logical connectives, such as And, Or, Not, and more. These classes can be composed within each other to create complex logical sentences, representing the statements made by different characters. 
 
